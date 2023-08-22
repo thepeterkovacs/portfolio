@@ -4,6 +4,8 @@ import * as fonts from "@/lib/assets/fonts"
 import { Locale, i18n } from "@/lib/utils/i18n"
 import { cn } from "@/lib/utils/standard"
 
+import { ThemeProvider } from "@/components/providers/theme-provider"
+
 import "./globals.css"
 
 export async function generateStaticParams() {
@@ -17,7 +19,9 @@ interface Props extends PropsWithChildren {
 export default function RootLayout({ params, children }: Props): JSX.Element {
 	return (
 		<html lang={params.locale}>
-			<body className={cn("bg-background", fonts.roboto.className)}>{children}</body>
+			<body className={cn("bg-background", fonts.roboto.className)}>
+				<ThemeProvider>{children}</ThemeProvider>
+			</body>
 		</html>
 	)
 }
