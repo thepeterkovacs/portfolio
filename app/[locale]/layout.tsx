@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils/standard"
 import LangToggle from "@/components/helpers/lang-toggle"
 import ThemeToggle from "@/components/helpers/theme-toggle"
 import { ThemeProvider } from "@/components/providers/theme-provider"
+import TailwindIndicator from "@/components/tools/tailwind-indicator"
 
 export async function generateStaticParams() {
 	return i18n.locales.map((locale) => ({ locale }))
@@ -28,6 +29,7 @@ export default function RootLayout({ params, children }: Props): JSX.Element {
 						<ThemeToggle />
 					</div>
 					<main>{children}</main>
+					<TailwindIndicator />
 				</ThemeProvider>
 			</body>
 		</html>
