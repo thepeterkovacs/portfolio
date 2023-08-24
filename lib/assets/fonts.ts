@@ -1,6 +1,6 @@
-import { Roboto } from "next/font/google"
+import { Rubik } from "next/font/google"
 
-export const roboto = Roboto({
+export const rubik = Rubik({
 	subsets: ["latin"],
-	weight: "400",
+	weight: "300",
 })

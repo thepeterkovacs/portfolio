@@ -22,7 +22,7 @@ interface Props extends PropsWithChildren {
 export default function RootLayout({ params, children }: Props): JSX.Element {
 	return (
 		<html lang={params.locale} suppressHydrationWarning>
-			<body className={cn("bg-background", fonts.roboto.className)}>
+			<body className={cn("bg-background", fonts.rubik.className)}>
 				<ThemeProvider attribute='class' defaultTheme='system' enableSystem>
 					<div className='flex gap-4 justify-end p-8'>
 						<LangToggle />
