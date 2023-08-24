@@ -1,21 +1,22 @@
+import { PropsWithChildren } from "react"
+
 import Link from "next/link"
 
 import { cn } from "@/lib/utils/standard"
 
-import Icons from "./helpers/icons"
 import { buttonVariants } from "./layout/button"
 
-interface Props {
+interface Props extends PropsWithChildren {
 	href: string
-	icon: keyof typeof Icons
 }
 
-export default function Contact({ href, icon }: Props): JSX.Element {
-	const Icon = Icons[icon]
-
+export default function Contact({ href, children }: Props): JSX.Element {
 	return (
-		<Link className={cn(buttonVariants({ variant: "outline" }), "p-0 h-12 w-12")} href={href}>
-			<Icon className='w-12 h-12' />
+		<Link
+			className={cn(buttonVariants({ variant: "outline" }), "p-0 h-12 w-12")}
+			href={href}
+			target='_blank'>
+			{children}
 		</Link>
 	)
 }
