@@ -15,7 +15,7 @@ export default function Skill({ name, value }: Props): JSX.Element {
 	useEffect(() => {
 		const timer = setTimeout(() => setProgress(value), 50)
 		return () => clearTimeout(timer)
-	}, [])
+	}, [value])
 
 	return (
 		<div className='flex items-center'>
