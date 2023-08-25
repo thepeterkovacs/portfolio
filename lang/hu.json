@@ -1,0 +1,20 @@
+{
+	"name": "Kovács Péter",
+	"description": "Elszánt és lelkes szoftverfejlesztő vagyok, széleskörű technológiai alapokkal. A szakértelmem hatékony és strapabíró megoldások kialakításában rejlik, főként TypeScript és C# használatával. Utam során a gyakorlati tapasztalatok által fejlesztettem a képességeimet, és mély szenvedéllyel törekedtem arra, hogy hatékony alkalmazásokat hozzak létre.",
+	"experience": [
+		{
+			"company": "Siemens Energy",
+			"position": "Gyártási digitalizációs mérnők"
+		}
+	],
+	"education": [
+		{
+			"school": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
+			"studies": "Villamosmérnök - multimédia technológiák és rendszerek szakirány"
+		},
+		{
+			"school": "Orosházi Táncsics Mihály Gimnázium és Kollégium",
+			"studies": "Emelt matematika és fizika specializáció"
+		}
+	]
+}

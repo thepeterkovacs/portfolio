@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "server",
+			"type": "node-terminal",
+			"request": "launch",
+			"command": "npm run dev"
+		},
+		{
+			"name": "client",
+			"type": "msedge",
+			"request": "launch",
+			"url": "http://localhost:3000"
+		}
+	]
+}
