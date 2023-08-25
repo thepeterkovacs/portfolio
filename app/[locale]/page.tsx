@@ -15,7 +15,7 @@ export default async function Home({ params: { locale } }: Props): Promise<JSX.E
 	const LANG = await getDictionary(locale)
 
 	return (
-		<section className='flex justify-center pb-24'>
+		<section className='flex justify-center pb-16'>
 			<div className='flex flex-col w-4/5 gap-16'>
 				<div className='flex gap-16 flex-wrap-reverse lg:flex-nowrap'>
 					<div className='flex justify-center w-full lg:w-fit'>
@@ -30,11 +30,11 @@ export default async function Home({ params: { locale } }: Props): Promise<JSX.E
 						<Skills />
 					</div>
 				</div>
-				<div className='flex w-full gap-8 justify-around'>
-					<div className='flex w-1/2 justify-center'>
+				<div className='flex w-full gap-8 justify-around flex-wrap-reverse lg:flex-nowrap'>
+					<div className='flex w-full lg:w-1/2 justify-center'>
 						<Educations />
 					</div>
-					<div className='flex w-1/2 justify-center'>
+					<div className='flex w-full lg:w-1/2 justify-center'>
 						<Experiences />
 					</div>
 				</div>
