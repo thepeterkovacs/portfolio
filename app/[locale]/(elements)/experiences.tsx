@@ -1,15 +1,26 @@
+import { getDictionary } from "@/lib/utils/dictionary"
+import { Locale } from "@/lib/utils/i18n"
+
 import Experience from "@/components/experience"
 
-export default async function Experiences(): Promise<JSX.Element> {
+interface Props {
+	locale: Locale
+}
+
+export default async function Experiences({ locale }: Props): Promise<JSX.Element> {
+	const LANG = await getDictionary(locale)
+
 	return (
 		<div className='flex flex-col gap-4'>
 			<div className='text-xl pb-4'>Experience</div>
-			<Experience dates='2022.02 - 2023.08'>
-				<div className='pl-8'>
-					<div className='text-xl'>Siemens Energy</div>
-					<div className='pl-4'>Manufacturing Digitalization Engineer</div>
-				</div>
-			</Experience>
+			{LANG.experience.map((experience) => (
+				<Experience dates={experience.dates}>
+					<div className='pl-8'>
+						<div className='text-xl'>{experience.company}</div>
+						<div className='pl-4'>{experience.position}</div>
+					</div>
+				</Experience>
+			))}
 		</div>
 	)
 }

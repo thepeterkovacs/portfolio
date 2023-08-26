@@ -35,7 +35,7 @@ export default async function Home({ params: { locale } }: Props): Promise<JSX.E
 						<Educations />
 					</div>
 					<div className='flex w-full lg:w-1/2 justify-center'>
-						<Experiences />
+						<Experiences locale={locale} />
 					</div>
 				</div>
 			</div>
