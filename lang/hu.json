@@ -1,6 +1,9 @@
 {
 	"name": "Kovács Péter",
 	"description": "Elszánt és lelkes szoftverfejlesztő vagyok, széleskörű technológiai alapokkal. A szakértelmem hatékony és strapabíró megoldások kialakításában rejlik, főként TypeScript és C# használatával. Utam során a gyakorlati tapasztalatok által fejlesztettem a képességeimet, és mély szenvedéllyel törekedtem arra, hogy hatékony alkalmazásokat hozzak létre.",
+	"skills": {
+		"title": "Nyelvek és technológiák"
+	},
 	"experience": [
 		{
 			"company": "Siemens Energy",

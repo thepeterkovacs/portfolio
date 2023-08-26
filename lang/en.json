@@ -1,6 +1,9 @@
 {
 	"name": "Peter Kovacs",
 	"description": "I am a dedicated and enthusiastic software developer with a strong foundation in a variety of technologies. My expertise lies in crafting efficient and robust solutions using TypeScript and C#, among other tools. Throughout my journey, I have honed my skills through hands-on experience and a deep passion for creating impactful applications.",
+	"skills": {
+		"title": "Languages and technologies"
+	},
 	"experience": [
 		{
 			"company": "Siemens Energy",
