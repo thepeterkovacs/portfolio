@@ -14,7 +14,7 @@ const { links, email } = details
 
 export default function Contacts(): JSX.Element {
 	return (
-		<div className='flex w-72 justify-between'>
+		<div className='flex w-[288px] justify-between'>
 			<Contact href={links.twitter} target='_blank'>
 				<TwitterLogoIcon className='w-8 h-8' />
 			</Contact>
