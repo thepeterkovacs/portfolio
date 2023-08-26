@@ -35,7 +35,7 @@ export default function LangToggle() {
 		<Link
 			className={cn(buttonVariants({ variant: "outline", size: "sm" }), "w-12 text-base")}
 			href={redirectedPathName()}>
-			{pathName.substring(1).toUpperCase()}
+			{getNextLocale().toUpperCase()}
 			<span className='sr-only'>Toggle lang</span>
 		</Link>
 	)
