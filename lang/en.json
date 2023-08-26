@@ -4,19 +4,24 @@
 	"skills": {
 		"title": "Languages and technologies"
 	},
-	"experience": [
-		{
-			"dates": "2022.02 - 2023.08",
-			"company": "Siemens Energy",
-			"position": "Manufacturing Digitalization Engineer"
-		}
-	],
+	"experience": {
+		"title": "Experience",
+		"items": [
+			{
+				"dates": "2022.02 - 2023.08",
+				"company": "Siemens Energy",
+				"position": "Manufacturing Digitalization Engineer"
+			}
+		]
+	},
 	"education": [
 		{
+			"dates": "2018.09 - 2022.01",
 			"school": "Budapest University of Technology and Economics",
 			"studies": "Electrical engineering - multimedia technologies and systems specialty"
 		},
 		{
+			"dates": "2014.09 - 2018.06",
 			"school": "Táncsics Mihály Gymnasium and College of Orosháza",
 			"studies": "Specialization in advanced mathematics and physics"
 		}

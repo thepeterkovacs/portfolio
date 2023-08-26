@@ -12,8 +12,8 @@ export default async function Experiences({ locale }: Props): Promise<JSX.Elemen
 
 	return (
 		<div className='flex flex-col gap-4'>
-			<div className='text-xl pb-4'>Experience</div>
-			{LANG.experience.map((experience) => (
+			<div className='text-xl pb-4'>{LANG.experience.title}</div>
+			{LANG.experience.items.map((experience) => (
 				<Experience dates={experience.dates}>
 					<div className='pl-8'>
 						<div className='text-xl'>{experience.company}</div>
