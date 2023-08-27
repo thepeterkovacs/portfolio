@@ -3,6 +3,7 @@ import { PropsWithChildren } from "react"
 import "@/styles/globals.css"
 
 import * as fonts from "@/lib/assets/fonts"
+import METADATA from "@/lib/assets/metadata"
 import { Locale, i18n } from "@/lib/utils/i18n"
 import { cn } from "@/lib/utils/standard"
 
@@ -14,6 +15,8 @@ import TailwindIndicator from "@/components/tools/tailwind-indicator"
 export async function generateStaticParams() {
 	return i18n.locales.map((locale) => ({ locale }))
 }
+
+export const metadata = METADATA
 
 interface Props extends PropsWithChildren {
 	params: { locale: Locale }
