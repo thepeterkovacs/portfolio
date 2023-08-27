@@ -21,7 +21,7 @@ export default function Skill({ name, value }: Props): JSX.Element {
 		<div className='flex items-center'>
 			<div className='w-[88px]'>{name}</div>
 			<div className='w-3/4'>
-				<Progress value={progress} />
+				<Progress title={name} value={progress} />
 			</div>
 		</div>
 	)
