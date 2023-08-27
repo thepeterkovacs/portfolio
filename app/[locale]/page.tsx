@@ -27,15 +27,15 @@ export default async function Home({ params: { locale } }: Props): Promise<JSX.E
 					<div className='flex flex-col w-full gap-8'>
 						<div className='text-5xl'>{LANG.name}</div>
 						<div>{LANG.description}</div>
-						<Skills />
+						<Skills locale={locale} />
 					</div>
 				</div>
 				<div className='flex w-full gap-8 justify-around flex-wrap-reverse lg:flex-nowrap'>
 					<div className='flex w-full lg:w-1/2 justify-center'>
-						<Educations />
+						<Educations locale={locale} />
 					</div>
 					<div className='flex w-full lg:w-1/2 justify-center'>
-						<Experiences />
+						<Experiences locale={locale} />
 					</div>
 				</div>
 			</div>

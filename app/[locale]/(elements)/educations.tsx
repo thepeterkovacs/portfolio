@@ -1,23 +1,26 @@
+import { getDictionary } from "@/lib/utils/dictionary"
+import { Locale } from "@/lib/utils/i18n"
+
 import Education from "@/components/education"
 
-export default async function Educations(): Promise<JSX.Element> {
+interface Props {
+	locale: Locale
+}
+
+export default async function Educations({ locale }: Props): Promise<JSX.Element> {
+	const LANG = await getDictionary(locale)
+
 	return (
 		<div className='flex flex-col gap-4'>
-			<div className='text-xl pb-4'>Education</div>
-			<Education dates='2018.09 - 2022.01'>
-				<div className='pl-8'>
-					<div className='text-xl'>Budapest University of Technology and Economics</div>
-					<div className='pl-4'>
-						Electrical engineering - multimedia technologies and systems specialty
+			<div className='text-xl pb-4'>{LANG.education.title}</div>
+			{LANG.education.items.map((education) => (
+				<Education key={education.school} dates={education.dates}>
+					<div className='pl-8'>
+						<div className='text-xl'>{education.school}</div>
+						<div className='pl-4'>{education.studies}</div>
 					</div>
-				</div>
-			</Education>
-			<Education dates='2014.09 - 2018.06'>
-				<div className='pl-8'>
-					<div className='text-xl'>Táncsics Mihály Gymnasium and College of Orosháza</div>
-					<div className='pl-4'>Specialization in advanced mathematics and physics</div>
-				</div>
-			</Education>
+				</Education>
+			))}
 		</div>
 	)
 }

@@ -20,8 +20,8 @@ export default function Skill({ name, value }: Props): JSX.Element {
 	return (
 		<div className='flex items-center'>
 			<div className='w-[88px]'>{name}</div>
-			<div className='w-2/3'>
-				<Progress value={progress} />
+			<div className='w-3/4'>
+				<Progress title={name} value={progress} />
 			</div>
 		</div>
 	)

@@ -1,20 +1,32 @@
 {
 	"name": "Peter Kovacs",
 	"description": "I am a dedicated and enthusiastic software developer with a strong foundation in a variety of technologies. My expertise lies in crafting efficient and robust solutions using TypeScript and C#, among other tools. Throughout my journey, I have honed my skills through hands-on experience and a deep passion for creating impactful applications.",
-	"experience": [
-		{
-			"company": "Siemens Energy",
-			"position": "Manufacturing Digitalization Engineer"
-		}
-	],
-	"education": [
-		{
-			"school": "Budapest University of Technology and Economics",
-			"studies": "Electrical engineering - multimedia technologies and systems specialty"
-		},
-		{
-			"school": "Táncsics Mihály Gymnasium and College of Orosháza",
-			"studies": "Specialization in advanced mathematics and physics"
-		}
-	]
+	"skills": {
+		"title": "Languages and technologies"
+	},
+	"experience": {
+		"title": "Experience",
+		"items": [
+			{
+				"dates": "2022.02 - 2023.08",
+				"company": "Siemens Energy",
+				"position": "Manufacturing digitalization engineer"
+			}
+		]
+	},
+	"education": {
+		"title": "Education",
+		"items": [
+			{
+				"dates": "2018.09 - 2022.01",
+				"school": "Budapest University of Technology and Economics",
+				"studies": "Electrical engineering - multimedia technologies and systems specialty"
+			},
+			{
+				"dates": "2014.09 - 2018.06",
+				"school": "Táncsics Mihály Gymnasium and College of Orosháza",
+				"studies": "Specialization in advanced mathematics and physics"
+			}
+		]
+	}
 }
