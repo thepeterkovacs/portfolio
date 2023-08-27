@@ -32,7 +32,7 @@ export default async function Home({ params: { locale } }: Props): Promise<JSX.E
 				</div>
 				<div className='flex w-full gap-8 justify-around flex-wrap-reverse lg:flex-nowrap'>
 					<div className='flex w-full lg:w-1/2 justify-center'>
-						<Educations />
+						<Educations locale={locale} />
 					</div>
 					<div className='flex w-full lg:w-1/2 justify-center'>
 						<Experiences locale={locale} />
