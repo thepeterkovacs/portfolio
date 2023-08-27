@@ -5,7 +5,7 @@
 		"title": "Nyelvek és technológiák"
 	},
 	"experience": {
-		"title": "Experience",
+		"title": "Tapasztalat",
 		"items": [
 			{
 				"dates": "2022.02 - 2023.08",
@@ -14,16 +14,19 @@
 			}
 		]
 	},
-	"education": [
-		{
-			"dates": "2018.09 - 2022.01",
-			"school": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
-			"studies": "Villamosmérnök - multimédia technológiák és rendszerek szakirány"
-		},
-		{
-			"dates": "2014.09 - 2018.06",
-			"school": "Orosházi Táncsics Mihály Gimnázium és Kollégium",
-			"studies": "Emelt matematika és fizika specializáció"
-		}
-	]
+	"education": {
+		"title": "Tanulmányok",
+		"items": [
+			{
+				"dates": "2018.09 - 2022.01",
+				"school": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
+				"studies": "Villamosmérnök - multimédia technológiák és rendszerek szakirány"
+			},
+			{
+				"dates": "2014.09 - 2018.06",
+				"school": "Orosházi Táncsics Mihály Gimnázium és Kollégium",
+				"studies": "Emelt matematika és fizika specializáció"
+			}
+		]
+	}
 }
