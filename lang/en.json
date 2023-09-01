@@ -8,6 +8,11 @@
 		"title": "Experience",
 		"items": [
 			{
+				"dates": "2023.08 -",
+				"company": "3DHISTECH",
+				"position": "Software developer - research image processing group"
+			},
+			{
 				"dates": "2022.02 - 2023.08",
 				"company": "Siemens Energy",
 				"position": "Manufacturing digitalization engineer"
