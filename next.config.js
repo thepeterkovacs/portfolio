@@ -3,12 +3,12 @@ const nextConfig = {
 	basePath: "/portfolio",
 	async redirects() {
 		return [
-			{ source: "/", destination: "/portfolio", basePath: false, permanent: true },
+			{ source: "/", destination: "/portfolio", basePath: false, permanent: false },
 			{
 				source: "/portfolio",
 				destination: "/portfolio/en",
 				basePath: false,
-				permanent: true,
+				permanent: false,
 			},
 		]
 	},
