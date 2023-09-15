@@ -69,6 +69,10 @@ const details = {
 			name: "LoL Scan",
 			href: "https://github.com/thepeterkovacs/lol-scan",
 		},
+		{
+			name: "CC Toolset",
+			href: "https://github.com/thepeterkovacs/cc-toolset",
+		},
 	],
 }
 

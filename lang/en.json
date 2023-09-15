@@ -44,6 +44,10 @@
 			{
 				"name": "LoL Scan",
 				"description": "An experimental League of Legends player tracker application with real time data visualization featuring technologies like tRPC, Drizzle ORM and PlanetScale MySQL, while utilizing the basics of web-scraping."
+			},
+			{
+				"name": "CC Toolset",
+				"description": "An extensive Lua function library, meticulously crafted to encompass both fundamental and advanced operations, designed specifically for seamless integration within the ComputerCraft mod environment."
 			}
 		]
 	}
