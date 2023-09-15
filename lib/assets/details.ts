@@ -52,6 +52,16 @@ const details = {
 			},
 		],
 	},
+	projects: [
+		{
+			name: "Web Primer Shell",
+			href: "https://github.com/thepeterkovacs/web-primer-shell",
+		},
+		{
+			name: "LoL Scan",
+			href: "https://github.com/thepeterkovacs/lol-scan",
+		},
+	],
 }
 
 export default details
