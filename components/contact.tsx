@@ -16,6 +16,7 @@ export default function Contact({ href, target, children }: Props): JSX.Element 
 		<Link
 			className={cn(buttonVariants({ variant: "outline" }), "p-0 h-12 w-12")}
 			href={href}
+			aria-label={href}
 			target={target}>
 			{children}
 		</Link>

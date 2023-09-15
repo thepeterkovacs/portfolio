@@ -12,7 +12,7 @@ export default async function Educations({ locale }: Props): Promise<JSX.Element
 
 	return (
 		<div className='flex flex-col gap-4'>
-			<div className='text-xl pb-4'>{LANG.education.title}</div>
+			<div className='text-2xl pb-4'>{LANG.education.title}</div>
 			{LANG.education.items.map((education) => (
 				<Education key={education.school} dates={education.dates}>
 					<div className='pl-8'>

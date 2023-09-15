@@ -5,6 +5,7 @@ import Contacts from "./(elements)/contacts"
 import Educations from "./(elements)/educations"
 import Experiences from "./(elements)/experiences"
 import Picture from "./(elements)/picture"
+import Projects from "./(elements)/projects"
 import Skills from "./(elements)/skills"
 
 interface Props {
@@ -38,6 +39,7 @@ export default async function Home({ params: { locale } }: Props): Promise<JSX.E
 						<Experiences locale={locale} />
 					</div>
 				</div>
+				<Projects locale={locale} />
 			</div>
 		</section>
 	)

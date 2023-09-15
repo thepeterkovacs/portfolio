@@ -15,7 +15,7 @@ export default async function Skills({ locale }: Props): Promise<JSX.Element> {
 
 	return (
 		<div className='flex flex-col gap-4'>
-			<div className='text-xl'>{LANG.skills.title}</div>
+			<div className='text-2xl'>{LANG.skills.title}</div>
 			<div className='flex gap-4 text-base flex-wrap lg:flex-nowrap'>
 				<div className='flex flex-col gap-2 w-full lg:w-1/2'>
 					{languages.map((language) => (
