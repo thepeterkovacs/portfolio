@@ -9,16 +9,16 @@ const details = {
 	skills: {
 		languages: [
 			{
-				name: "TS/JS",
-				value: 80,
+				name: "JS/TS",
+				value: 90,
 			},
 			{
 				name: "C#",
-				value: 70,
+				value: 80,
 			},
 			{
 				name: "SQL",
-				value: 50,
+				value: 60,
 			},
 			{
 				name: "Lua",
@@ -30,13 +30,17 @@ const details = {
 			},
 			{
 				name: "Python",
-				value: 20,
+				value: 10,
 			},
 		],
 		technologies: [
 			{
 				name: "Next.js",
-				value: 80,
+				value: 90,
+			},
+			{
+				name: "Node.js",
+				value: 75,
 			},
 			{
 				name: "React",
@@ -44,11 +48,15 @@ const details = {
 			},
 			{
 				name: "ASP.NET",
-				value: 70,
+				value: 50,
+			},
+			{
+				name: "Tableau",
+				value: 40,
 			},
 			{
 				name: "AWS",
-				value: 40,
+				value: 20,
 			},
 		],
 	},
