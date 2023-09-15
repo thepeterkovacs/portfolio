@@ -33,5 +33,18 @@
 				"studies": "Emelt matematika és fizika specializáció"
 			}
 		]
+	},
+	"projects": {
+		"title": "Saját projektek",
+		"items": [
+			{
+				"name": "Web Primer Shell",
+				"description": "Egy fejlesztőbarát webalkalmazás-sablon, amely a full-stack projektek széles spektrumához alkalmas, valamint a korszerű eszközök és megoldások keverékét kínálja az egyszerű és bonyolult fejlesztési igények kielégítésére."
+			},
+			{
+				"name": "LoL Scan",
+				"description": "Egy kísérleti League of Legends játékoskövető alkalmazás valós idejű adatmegjelenítéssel, amely olyan technológiákat tartalmaz, mint a tRPC, a Drizzle ORM és a PlanetScale MySQL, felhasználva a web-scraping alapjait."
+			}
+		]
 	}
 }

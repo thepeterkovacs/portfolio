@@ -33,5 +33,18 @@
 				"studies": "Specialization in advanced mathematics and physics"
 			}
 		]
+	},
+	"projects": {
+		"title": "Own projects",
+		"items": [
+			{
+				"name": "Web Primer Shell",
+				"description": "A developer-friendly web application template suitable for a wide spectrum of full-stack projects, offering a blend of contemporary tools and solutions to cater to both straightforward and intricate development needs."
+			},
+			{
+				"name": "LoL Scan",
+				"description": "An experimental League of Legends player tracker application with real time data visualization featuring technologies like tRPC, Drizzle ORM and PlanetScale MySQL, while utilizing the basics of web-scraping."
+			}
+		]
 	}
 }
