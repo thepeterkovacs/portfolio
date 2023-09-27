@@ -42,8 +42,8 @@
 				"description": "A developer-friendly web application template suitable for a wide spectrum of full-stack projects, offering a blend of contemporary tools and solutions to cater to both straightforward and intricate development needs."
 			},
 			{
-				"name": "LoL Scan",
-				"description": "An experimental League of Legends player tracker application with real time data visualization featuring technologies like tRPC, Drizzle ORM and PlanetScale MySQL, while utilizing the basics of web-scraping."
+				"name": "LoL Scan API",
+				"description": "An application programming interface for tracking League of Legends data, developed with tRPC, leveraging fundamental web-scraping techniques."
 			},
 			{
 				"name": "CC Toolset",
