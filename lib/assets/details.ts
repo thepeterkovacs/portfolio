@@ -66,8 +66,8 @@ const details = {
 			href: "https://github.com/thepeterkovacs/web-primer-shell",
 		},
 		{
-			name: "LoL Scan",
-			href: "https://github.com/thepeterkovacs/lol-scan",
+			name: "LoL Scan API",
+			href: "https://lol-scan-api.vercel.app",
 		},
 		{
 			name: "CC Toolset",
