@@ -46,6 +46,10 @@
 				"description": "A League of Legends játék adatainak nyomon követésére szolgáló, tRPC-vel fejlesztett alkalmazásprogramozási felület, amely alapvető web-scraping technikákat használ."
 			},
 			{
+				"name": "Node Primer Shell",
+				"description": "Egy Node.js alkalmazássablon bármely új projekt gyors és egyszerű elindításához, beleértve egy alapvető alkalmazásstruktúrát TypeScript és Prettier konfigurációkkal."
+			},
+			{
 				"name": "CC Toolset",
 				"description": "Kiterjedt, aprólékos Lua funkciókönyvtár, alapvető és komplex műveleteket egyaránt tartalmazva, amely kifejezetten a ComputerCraft mod környezetbe való zökkenőmentes integrációra lett tervezve."
 			}

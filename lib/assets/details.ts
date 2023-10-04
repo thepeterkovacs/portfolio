@@ -63,11 +63,15 @@ const details = {
 	projects: [
 		{
 			name: "Web Primer Shell",
-			href: "https://github.com/thepeterkovacs/web-primer-shell",
+			href: "https://www.npmjs.com/package/web-primer-shell",
 		},
 		{
 			name: "LoL Scan API",
 			href: "https://lol-scan-api.vercel.app",
+		},
+		{
+			name: "Node Primer Shell",
+			href: "https://github.com/thepeterkovacs/node-primer-shell",
 		},
 		{
 			name: "CC Toolset",

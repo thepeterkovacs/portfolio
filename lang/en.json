@@ -46,6 +46,10 @@
 				"description": "An application programming interface for tracking League of Legends data, developed with tRPC, leveraging fundamental web-scraping techniques."
 			},
 			{
+				"name": "Node Primer Shell",
+				"description": "A Node.js application template to start any new project quickly and easily, including a basic application structure with TypeScript and Prettier configurations."
+			},
+			{
 				"name": "CC Toolset",
 				"description": "An extensive Lua function library, meticulously crafted to encompass both fundamental and advanced operations, designed specifically for seamless integration within the ComputerCraft mod environment."
 			}
