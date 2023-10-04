@@ -14,7 +14,7 @@ export default async function Projects({ locale }: Props): Promise<JSX.Element> 
 	return (
 		<div>
 			<div className='text-center text-3xl pb-12'>{LANG.projects.title}</div>
-			<div className='flex gap-8 md:gap-0 justify-evenly flex-wrap md:flex-nowrap'>
+			<div className='flex gap-8 justify-between flex-wrap'>
 				{LANG.projects.items.map((project) => (
 					<Project
 						key={project.name}
